@@ -31,7 +31,7 @@ driver.set_window_size(page_width, page_height)
 # 現在時刻を取得
 now = datetime.now()
 # スクリーンショット格納先
-path = "C:\python\Scraping\ScreenShot\search_results_" + now.strftime("%Y%m%d_%H%M%S") + ".png"
+path = r"C:\python\Scraping\ScreenShot\search_results_" + now.strftime("%Y%m%d_%H%M%S") + ".png"
 # スクリーンショットを撮る
 driver.save_screenshot(path)
 # ファイルオープン
